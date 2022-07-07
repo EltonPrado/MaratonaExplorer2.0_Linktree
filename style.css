@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color: #EDF2FF;
+  --text-color: #00082F;
+}
+
+body {
+  background-image: url(image/Estampa\ Linhas\ 2\ -\ Com\ fundo.png);
+  background-repeat: no-repeat;
+
+  font-family: 'Roboto', sans-serif;
+
+  min-width: 100vh;
+}
+
+.page {
+  text-align: center;
+  width: 300px;
+  margin: 60px auto 0px;
+}
+
+.avatar {
+  width: 100%;
+}
+
+.avatar img {
+  width: 100px;
+  height: 100px;
+  
+  border-radius: 50%;
+  padding: 3.7px;
+  border: 1px solid #F0F0EE;
+}
+
+.text h1 {
+  font-size: 40px;
+  color: #F0F0EE;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+.text p {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: uppercase;
+
+  color: #F0F0EE;
+  letter-spacing: 2px;
+}
+
+main ul {
+  list-style: none;
+  margin: 48px 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 300px;
+  height: 53px;
+  
+  background: #F0F0EE;
+  border-radius: 20px;
+  
+  font-size: 14px;
+  line-height: normal;
+  color: #BA5F37;
+  text-transform: uppercase;
+  
+  margin-bottom: 16px;
+
+  transition: background 400ms;
+}
+
+/*ul li a:hover {
+  background: #BA5F37;
+  color: #F0F0EE;
+}*/
+
+footer {
+  font-size: 12px;
+  font-weight: 400;
+
+  color: #F0F0EE;
+  opacity: 0.6;
+  transition: opacity 400ms;
+}
+
+footer:hover {
+  opacity: 1;
+}
